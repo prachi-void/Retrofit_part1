@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Retrofit_part1</string>
+    <string name="name">Captain America</string>
+    <string name="team">Avengers</string>
+    <string name="bio">bio</string>
+    <string name="createdby">Joe Simon</string>
+
+</resources>

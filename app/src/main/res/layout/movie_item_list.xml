@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="500dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+
+            android:layout_height="450dp"
+            android:padding="7dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_movie"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:elevation="14dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/shadow_image"
+                />
+
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="@string/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"/>
+
+                <TextView
+                    android:id="@+id/txt_team"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:text="@string/team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"/>
+
+                <TextView
+                    android:id="@+id/txt_createdby"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:text="@string/createdby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"/>
+
+            <TextView
+                android:id="@+id/_bio"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:text="@string/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"/>
+
+
+
+</LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
